@@ -1,0 +1,43 @@
+.vscode-light pre {
+	background-color: #fdfdfd;
+    border: 1px solid #f0f0f0;
+}
+
+.vscode-light .hljs-keyword {
+	color: #8757A5;
+	font-weight: bold;
+}
+
+.vscode-light .hljs-string {
+	color: #738D06;
+}
+
+.vscode-light .hljs-number {
+	color: #F18A2B;
+}
+
+.vscode-light .hljs-built_in {
+	/* color: #007ACC; */
+	color: inherit;
+}
+
+.hljs-function .hljs-title {
+	color: #4370B0;
+	font-weight: bold;
+}
+
+p.code-line code {
+	/* background: #f1f1f1; */
+	background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    padding: 0px 3px;
+    border-radius: 3px;
+    /* color: black; */
+}
+
+blockquote {
+    /* background: rgb(195 195 195 / 10%);
+    border-color: #dedede; */
+	background: #fff4ea;
+	border-color: #ffc58f;
+}

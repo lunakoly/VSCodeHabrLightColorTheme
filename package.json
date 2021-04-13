@@ -1,0 +1,24 @@
+{
+    "name": "habr-color-theme-light",
+    "displayName": "Habr Color Theme Light",
+    "description": "Simple light color theme inspired by code snippets from Habr.com",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Habr Light",
+                "uiTheme": "vs",
+                "path": "./themes/Habr Light-color-theme.json"
+            }
+        ],
+        "markdown.previewStyles": [
+            "./themes/Habr Light-markdown.css"
+        ]
+    }
+}
