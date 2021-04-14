@@ -1,4 +1,4 @@
-code {
+body[data-vscode-theme-name="Newbie Light"] code {
 	/* background: #f1f1f1; */
 	background: #fdfdfd;
     border: 1px solid #e0e0e0;
@@ -7,44 +7,43 @@ code {
     /* color: black; */
 }
 
-pre,
-.vscode-light pre {
+body[data-vscode-theme-name="Newbie Light"] pre {
 	background-color: #fdfdfd;
     border: 1px solid #f0f0f0;
 }
 
-pre code,
-.vscode-light pre code {
+body[data-vscode-theme-name="Newbie Light"] pre code {
 	background: transparent;
     border: none;
     padding: 0;
     border-radius: 0;
 }
 
-.vscode-light .hljs-keyword {
+body[data-vscode-theme-name="Newbie Light"] .hljs-keyword {
 	color: #8757A5;
 	font-weight: bold;
 }
 
-.vscode-light .hljs-string {
+body[data-vscode-theme-name="Newbie Light"] .hljs-string {
 	color: #738D06;
 }
 
-.vscode-light .hljs-number {
+body[data-vscode-theme-name="Newbie Light"] .hljs-number {
 	color: #F18A2B;
 }
 
-.vscode-light .hljs-built_in {
+body[data-vscode-theme-name="Newbie Light"] .hljs-built_in {
 	/* color: #007ACC; */
 	color: inherit;
 }
 
-.hljs-function .hljs-title {
+body[data-vscode-theme-name="Newbie Light"] .hljs-function .hljs-title,
+body[data-vscode-theme-name="Newbie Light"] .hljs-attr {
 	color: #4370B0;
 	font-weight: bold;
 }
 
-blockquote {
+body[data-vscode-theme-name="Newbie Light"] blockquote {
     /* background: rgb(195 195 195 / 10%);
     border-color: #dedede; */
 	background: #fff4ea;

@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Nothing
 
+## [1.0.2] - 2021-04-14
+- Fixed a bug that led to markdown styles being applied to other themes!
+
 ## [1.0.1] - 2021-04-14
 - Fixed a bug with inline code not being style properly in Markdown Previews
 - Added proper(?) styling for `support.function`

@@ -3,7 +3,7 @@
 	"displayName": "Newbie Light Color Theme",
 	"description": "Simple light color theme inspired by code snippets from Habr.com",
 	"icon": "images/icon.png",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
