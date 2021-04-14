@@ -1,6 +1,24 @@
+code {
+	/* background: #f1f1f1; */
+	background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    padding: 0px 3px;
+    border-radius: 3px;
+    /* color: black; */
+}
+
+pre,
 .vscode-light pre {
 	background-color: #fdfdfd;
     border: 1px solid #f0f0f0;
+}
+
+pre code,
+.vscode-light pre code {
+	background: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
 }
 
 .vscode-light .hljs-keyword {
@@ -24,15 +42,6 @@
 .hljs-function .hljs-title {
 	color: #4370B0;
 	font-weight: bold;
-}
-
-p.code-line code {
-	/* background: #f1f1f1; */
-	background: #fdfdfd;
-    border: 1px solid #e0e0e0;
-    padding: 0px 3px;
-    border-radius: 3px;
-    /* color: black; */
 }
 
 blockquote {

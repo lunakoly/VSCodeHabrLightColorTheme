@@ -1,5 +1,5 @@
 {
-	"name": "Habr Light",
+	"name": "Newbie Light",
 	"type": "light",
 	"colors": {
 		"activityBarBadge.background": "#007acc",
@@ -621,7 +621,8 @@
 		},
 		{
 			"scope": [
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"meta.property-name"
 			],
 			"settings": {
 				"foreground": "#0451A5",
@@ -740,6 +741,13 @@
 		},
 		{
 			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#4370B0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#4370B0",
 				"fontStyle": "bold"
@@ -873,8 +881,8 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				// "foreground": "#4370B0",
-				// "fontStyle": "bold"
+				"foreground": "#4370B0",
+				"fontStyle": "bold"
 			}
 		},
 		{

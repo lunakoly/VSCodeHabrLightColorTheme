@@ -1,24 +1,34 @@
 {
-    "name": "habr-color-theme-light",
-    "displayName": "Habr Color Theme Light",
-    "description": "Simple light color theme inspired by code snippets from Habr.com",
-    "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Habr Light",
-                "uiTheme": "vs",
-                "path": "./themes/Habr Light-color-theme.json"
-            }
-        ],
-        "markdown.previewStyles": [
-            "./themes/Habr Light-markdown.css"
-        ]
-    }
+	"name": "newbie-light-color-theme",
+	"displayName": "Newbie Light Color Theme",
+	"description": "Simple light color theme inspired by code snippets from Habr.com",
+	"icon": "images/icon.png",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Newbie Light",
+				"uiTheme": "vs",
+				"path": "./themes/newbie-light-color-theme.json"
+			}
+		],
+		"markdown.previewStyles": [
+			"./themes/newbie-light-markdown.css"
+		]
+	},
+	"publisher": "lunakoly",
+	"repository": {
+		"url": "https://github.com/lunakoly/VSCodeNewbieLightColorTheme"
+	},
+	"__metadata": {
+		"id": "f2b02a85-11c4-4e3b-8678-a7908ed123e0",
+		"publisherDisplayName": "luna_koly",
+		"publisherId": "0a06c929-fe5c-400c-9d1d-8be1eab5be09"
+	}
 }
